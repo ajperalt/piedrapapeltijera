@@ -3,7 +3,7 @@ package piedrapapeltijera;
 /**
  * 
  */
-public class Piedra implements ElementoDeJuego {
+public class Piedra  implements ElementoDeJuego {
 
 	@Override
 	public int play(ElementoDeJuego v) {
@@ -12,19 +12,19 @@ public class Piedra implements ElementoDeJuego {
 	}
 
 	@Override
-	public int playWithStone(Piedra v) {
+	public int playWithPiedra(Piedra v) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public int playWithPaper(Papel v) {
+	public int playWithPapel(Papel v) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public int playWithScissor(Tijera v) {
+	public int playWithTijera(Tijera v) {
 		// TODO Auto-generated method stub
 		return 0;
 	}

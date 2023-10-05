@@ -12,19 +12,19 @@ public class Tijera implements ElementoDeJuego {
 	}
 
 	@Override
-	public int playWithStone(Piedra v) {
+	public int playWithPiedra(Piedra v) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public int playWithPaper(Papel v) {
+	public int playWithPapel(Papel v) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public int playWithScissor(Tijera v) {
+	public int playWithTijera(Tijera v) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
